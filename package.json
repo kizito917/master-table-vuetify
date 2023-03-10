@@ -1,0 +1,70 @@
+{
+  "name": "master-detail-table",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "@mdi/font": "^3.6.95",
+    "@microsoft/signalr": "^6.0.9",
+    "diff": "^4.0.1",
+    "file-saver": "^2.0.5",
+    "moment": "^2.29.4",
+    "vue": "^2.6.12",
+    "vue-router": "^3.0.3",
+    "vue-toastification": "^1.7.14",
+    "vuetify": "2.5.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "^4.5.6",
+    "@vue/cli-plugin-eslint": "^4.5.6",
+    "@vue/cli-plugin-unit-mocha": "^4.5.6",
+    "@vue/cli-service": "^4.5.6",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/test-utils": "1.1.0",
+    "babel-eslint": "^10.0.1",
+    "chai": "^4.1.2",
+    "chromedriver": "^106.0.1",
+    "eslint": "^5.16.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "execa": "5.0.0",
+    "geckodriver": "^1.22.3",
+    "nightwatch": "^2.3.0",
+    "null-loader": "^4.0.0",
+    "prettier": "^2.1.2",
+    "sass": "^1.54.4",
+    "sass-loader": "^10.0.2",
+    "sinon": "^15.0.1",
+    "stylus": "^0.54.5",
+    "stylus-loader": "^4.1.0",
+    "vue-cli-plugin-vuetify": "^2.0.7",
+    "vue-template-compiler": "^2.6.12",
+    "vuetify-loader": "^1.6.0",
+    "wait-on": "^5.2.0",
+    "webpack": "^4.40.2",
+    "yargs": "^16.0.3"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {}
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
